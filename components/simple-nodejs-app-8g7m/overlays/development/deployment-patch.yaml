@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: simple-nodejs-app-8g7m
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-lqia-tenant/nodejs-users/simple-nodejs-app-8g7m@sha256:13183ec376a1db5a2a7978419d0c1aab186a6cb532010be72c4884399c3a508c
+        name: my-nodejs
+        resources: {}
+status: {}
